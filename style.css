@@ -1,0 +1,45 @@
+/* SETTING UP CSS-VARIABLES WITH :ROOT AND -- */
+
+:root {
+    --base: #ffc600;
+    --background: #1E0257;
+    --font: #F3F3F3;
+    --spacing: 20px;
+    --size: 60%;
+}
+
+
+/* PASS IN THE CSS-VARIABLE WITH VAR(--)*/
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    border-radius: 10px;
+    width: var(--size);
+}
+
+.highlight {
+    color: var(--base);
+}
+
+body {
+    text-align: center;
+    background: var(--background);
+    color: var(--font);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.controls {
+    margin: 0 auto;
+}
+
+input {
+    width: 50px;
+    border-radius: 10px;
+}

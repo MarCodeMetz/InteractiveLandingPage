@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Interactive Landing Page</title>
+</head>
+
+<body>
+    <h1>Update CSS Variables with <span class="highlight">JS</span></h1>
+
+    <div class="controls">
+        <ul>
+            <li>
+                <label for="spacing">Spacing:</label>
+                <input id="spacing" type="range" name="spacing" min="10" max="80" value="10" data-sizing="px">
+            </li>
+            <li>
+                <label for="size">Image Size:</label>
+                <input id="size" type="range" name="size" min="10" max="80" value="60" data-sizing="%">
+            </li>
+
+            <li>
+                <label for="base">Outline Color</label>
+                <input id="base" type="color" name="base" value="#ffc600">
+            </li>
+
+            <li>
+                <label for="background">Background Color</label>
+                <input id="background" type="color" name="background" value="#1E0257">
+            </li>
+
+            <li>
+                <label for="font">Font Color</label>
+                <input id="font" type="color" name="font" value="#F3F3F3">
+            </li>
+        </ul>
+    </div>
+
+    <img src="Beach.jpg">
+
+    <script src="script.js"></script>
+</body>
+
+</html>
